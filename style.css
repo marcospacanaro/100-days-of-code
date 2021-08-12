@@ -7,7 +7,7 @@ body {
 #navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #8B0CE2;
+    background-color: #5F287F;
 }
 
 #navbar img {
@@ -24,7 +24,7 @@ body {
     display: inline;
     margin: 1rem;
 
-    font-family: 'Tourney', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     color: white;
 }
 
@@ -49,15 +49,17 @@ body {
 }
 
 .header-img {
-    padding-left: 20rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 .header-p {
-    font-family: 'Tourney', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     color: white;
     font-size: 22px;
 
     padding-right: 20rem;
+    text-align: justify;
 }
 
 .header-p a{
@@ -67,5 +69,3 @@ body {
 .header-p a:hover{
     text-decoration: underline;
 }
-
-
