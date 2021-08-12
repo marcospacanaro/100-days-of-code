@@ -38,6 +38,34 @@ body {
     color: white;
 }
 
+#header {
+    background-color: #E0C7F4;
+    height: 100%;
+    margin: 0;
 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-img {
+    padding-left: 20rem;
+}
+
+.header-p {
+    font-family: 'Tourney', cursive;
+    color: white;
+    font-size: 22px;
+
+    padding-right: 20rem;
+}
+
+.header-p a{
+    text-decoration: none;
+}
+
+.header-p a:hover{
+    text-decoration: underline;
+}
 
 
