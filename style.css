@@ -69,3 +69,48 @@ body {
 .header-p a:hover{
     text-decoration: underline;
 }
+
+.main {
+    background-color: white;
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-img {
+    padding-left: 15rem;
+    padding-right: 15rem;
+}
+
+.main-p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #5F287F;
+    font-size: 22px;
+
+    padding-right: 20rem;
+    text-align: justify;
+}
+
+.main-dia2 {
+    background-color: #E0C7F4;
+    height: 100%;
+    margin: 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer {
+    background-color :#5F287F;
+    margin: 0px;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
