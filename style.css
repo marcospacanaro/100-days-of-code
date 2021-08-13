@@ -113,12 +113,17 @@ body {
     padding-right: 15rem;
 }
 
+.dia-par-img img {
+    padding-right: 100px;
+}
+
 .dia-par-p {
     font-family: 'Josefin Sans', sans-serif;
     color: #5F287F;
     font-size: 22px;
 
-    padding-left: 20rem;
+    padding-left: 200px;
+    padding-right: 100px;
     text-align: justify;
 }
 
