@@ -103,3 +103,14 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
+#footer {
+    background-color :#5F287F;
+    margin: 0px;
+    padding: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
