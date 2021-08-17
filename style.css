@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+.span {
+    font-weight: 600;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -158,7 +162,6 @@ body {
 }
 
 
-
 /*form.html*/
 
 
@@ -201,3 +204,30 @@ body {
 }
 
 
+/* MAPS */
+
+#maps {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    align-items: center;
+}
+
+#maps-title {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #5F287F;
+}
+
+#maps-frame {
+    margin-bottom: 2rem;
+}
+
+.map-link {
+    text-decoration: none;
+}
+
+.map-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
