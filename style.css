@@ -334,14 +334,27 @@ body {
 .flex-grid {
     display: flex;
     justify-content: space-around;
-    
     padding-left: 100px;
-  }
-  .col {
-    flex: 1;
-    padding: 1rem;
+}
 
-    font-family: 'Josefin sans', sans-serif;
-    font-weight: 600;
-    color: #5F287F;
-  }
+.col {
+   flex: 1;
+   padding: 1rem;
+   font-family: 'Josefin sans', sans-serif;
+   font-weight: 600;
+   color: #5F287F;
+}
+
+#box-sizing {
+    box-sizing: content-box;
+    box-shadow: 5px 10px #717171;
+
+    width: 300px;
+    height: 75px;
+    padding: 30px;
+    margin-left: 250px;
+    border: 10px solid #5F287F;
+}
+
+
+
