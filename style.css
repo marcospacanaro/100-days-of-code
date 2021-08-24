@@ -328,3 +328,18 @@ body {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+.flex-grid {
+    display: flex;
+    justify-content: space-around;
+    
+    padding-left: 100px;
+  }
+  .col {
+    flex: 1;
+    padding: 1rem;
+
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: 600;
+    color: #5F287F;
+  }
