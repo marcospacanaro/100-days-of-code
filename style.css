@@ -347,7 +347,8 @@ body {
 
 #box-sizing {
     box-sizing: content-box;
-    box-shadow: 5px 10px #717171;
+    cursor: pointer;
+    transition: box-shadow 0.5s;
 
     width: 300px;
     height: 75px;
@@ -356,5 +357,11 @@ body {
     border: 10px solid #5F287F;
 }
 
+#box-sizing:hover {
+    box-shadow: 5px 10px #717171;
+    
+}
 
-
+.w3-light-grey {
+    margin-right: 100px;
+}
