@@ -365,3 +365,18 @@ body {
 .w3-light-grey {
     margin-right: 100px;
 }
+
+table, td, th, tr {
+    border: 1px solid #5F287F;
+    padding: 5px;
+    color: #5F287F;
+    font-family: 'Josefin sans', sans-serif;
+}
+
+tr td {
+    font-family: 'Josefin sans', sans-serif;
+}
+
+.table-dia16 {
+    margin-left: 400px;
+}
