@@ -380,3 +380,26 @@ tr td {
 .table-dia16 {
     margin-left: 400px;
 }
+
+.dia-impar-17-p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #5F287F;
+    font-size: 22px;
+
+    padding-right: 20rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+
+    --cor-bg-principal: #E0C7F4;
+    background-color: var(--cor-bg-principal);
+}
+
+.dia-impar-17-p::first-letter{
+    color: red;
+}
+
+.dia-impar-17-p img {
+    margin-left: 140px
+}
