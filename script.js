@@ -26,3 +26,27 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// DIA 20 // 
+
+function converte(anos) {
+  return anos * 365;
+}
+
+console.log(converte(3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
