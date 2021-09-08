@@ -1,3 +1,5 @@
+// Dia 19 //
+
 document.body.onload = adcElemento;
 
 function adcElemento () {
@@ -9,7 +11,22 @@ function adcElemento () {
     document.body.insertBefore(divNova, divAtual);
 }
 
-console.log(divNova);
+// Dia 21 // 
+
+var novoTitulo = document.createElement("h1");
+var novoParagrafo = document.createElement("p");
+var texto = document.createTextNode("Conteúdo do parágrafo");
+
+novoParagrafo.appendChild(texto);
+
+var body = document.querySelector("body");
+body.appendChild(novoParagrafo);
+
+
+
+
+
+
 
 
 
